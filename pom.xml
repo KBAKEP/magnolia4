@@ -11,6 +11,7 @@
     <magnoliaVersion>5.6</magnoliaVersion>
     <javaVersion>1.8</javaVersion>
     <imagingVersion>3.4</imagingVersion>
+    <damVersion>2.3</damVersion>
   </properties>
 
   <!-- Fill the following in, so you can use the release plugin -->
@@ -51,6 +52,67 @@
         <artifactId>magnolia-imaging</artifactId>
         <version>${imagingVersion}</version>
       </dependency>
+
+      <dependency>
+        <groupId>info.magnolia.form</groupId>
+        <artifactId>magnolia-form</artifactId>
+        <version>2.4</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-api</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+
+      <!-- DAM -->
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-api</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-app</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-compatibility</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-core</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-jcr</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-templating</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.dam</groupId>
+        <artifactId>magnolia-dam-imaging</artifactId>
+        <version>${damVersion}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>info.magnolia.site</groupId>
+        <artifactId>magnolia-site-app</artifactId>
+        <version>1.2</version>
+      </dependency>
+
+      <dependency>
+        <groupId>info.magnolia.passwordmanager</groupId>
+        <artifactId>magnolia-module-password-manager</artifactId>
+        <version>1.2</version>
+      </dependency>
+
 
       <!--<dependency>-->
         <!--<groupId>info.magnolia</groupId>-->

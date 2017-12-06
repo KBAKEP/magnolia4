@@ -37,6 +37,49 @@
             <artifactId>magnolia-imaging</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>info.magnolia.form</groupId>
+            <artifactId>magnolia-form</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-app</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-compatibility</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-jcr</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-templating</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>info.magnolia.dam</groupId>
+            <artifactId>magnolia-dam-imaging</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>info.magnolia.site</groupId>
+            <artifactId>magnolia-site-app</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>info.magnolia.passwordmanager</groupId>
+            <artifactId>magnolia-module-password-manager</artifactId>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>info.magnolia</groupId>-->
             <!--<artifactId>magnolia-module-imaging</artifactId>-->
