@@ -1,0 +1,17 @@
+form:
+  tabs:
+    - name: tabText
+      label: FORM Title texts
+      fields:
+        - name: formTitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: FORM Title
+        - name: formSubTitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: FORM Subtitle
+        - name: copyrightNote
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: FORM Copyright note
+          description: FORM Photographers who own the images used on this site
+
+actions: !include /one-pager-module/dialogs/common/default-dialog-actions.yaml

@@ -1,0 +1,10 @@
+templateScript: /one-pager-module/templates/pages/form-page-template.ftl
+renderType: freemarker
+visible: true
+title: Form Template
+dialog: one-pager-module:pages/form
+areas:
+  main:
+    availableComponents:
+      form:
+        id: form:components/form
